@@ -178,7 +178,7 @@
             bindings = <
         &kp F1    &kp F2    &kp F3     &kp F4     &kp F5     &kp DOWN  &kp RIGHT  &none   &none  &none
         &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp F6     &none     &none      &none   &none  &none
-&kp F7  &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &kp UP    &kp LEFT   &none   &none  &none  &none
+&kp F7  &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &kp UP    &kp LEFT   &none   &none  &none  &bootloader
                             &trans     &trans     &trans     &trans    &trans     &trans
             >;
         };
@@ -254,10 +254,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none  &kp LC(W)  &none      &none      &shake_mouse    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none         &none            &none
-        &none  &mkp RCLK  &mkp MCLK  &mkp LCLK  &kp LC(G)       &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &none
-&trans  &none  &none      &none      &none      &none           &mmv MOVE_UP    &mmv MOVE_LEFT   &none         &none            &none  &trans
-                          &trans     &trans     &trans          &shake_mouse    &trans           &trans
+             &none  &kp LC(W)  &none      &none      &shake_mouse    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none         &none            &none
+             &none  &mkp RCLK  &mkp MCLK  &mkp LCLK  &kp LC(G)       &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &none
+&bootloader  &none  &none      &none      &none      &none           &mmv MOVE_UP    &mmv MOVE_LEFT   &none         &none            &none  &trans
+                               &trans     &trans     &trans          &shake_mouse    &trans           &trans
             >;
         };
 
