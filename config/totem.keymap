@@ -79,6 +79,11 @@
             bindings = <&kp TAB>;
             key-positions = <2 3>;
         };
+
+        combo_caps_word {
+            bindings = <&caps_word>;
+            key-positions = <28 29>;
+        };
     };
 
     macros {
@@ -132,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q       &kp W       &kp F          &kp P         &kp B            &kp J          &kp L         &kp U        &kp Y       &kp SEMI
-         &hrl LGUI A  &hrl LALT R  &hrl LCTRL S    &hrl LSHFT T   &kp G            &kp M          &hrr RSHFT N   &hrr RCTRL E  &hrr RALT I  &hrr RGUI O
-&kp ESC  &kp Z       &kp X       &kp C          &kp D         &kp V            &kp K          &kp H         &kp COMMA    &kp DOT     &kp FSLH    &kp DEL
-                                 &mt LCTRL TAB  &lt NUM BSPC  &lt MOUSE RET    &lt NAV SPACE  &lt SYM BSPC  &mo MEDIA
+         &kp Q        &kp W        &kp F          &kp P         &kp B            &kp J          &kp L         &kp U         &kp Y        &kp SEMI
+         &hrl LGUI A  &hrl LALT R  &hrl LCTRL S   &hrl LSHFT T  &kp G            &kp M          &hrr RSHFT N  &hrr RCTRL E  &hrr RALT I  &hrr RGUI O
+&kp ESC  &kp Z        &kp X        &kp C          &kp D         &kp V            &kp K          &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp DEL
+                                   &mt LCTRL TAB  &lt NUM BSPC  &lt MOUSE RET    &lt NAV SPACE  &lt SYM BSPC  &mo MEDIA
             >;
         };
 
